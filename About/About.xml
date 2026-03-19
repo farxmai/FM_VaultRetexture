@@ -8,9 +8,11 @@
 	<packageId>FM.Vaultfurniture</packageId>
 	<description>A few minor fixes and a bunch of new textures for an old but beloved mod. All textures are made by me, and are free to use for anyone who wants to use them, but I ask that you credit me if you do. I also ask that you don't use them for commercial purposes, but other than that, go nuts.</description>
 	<modDependencies>
-		<packageId>Twink.Vaultfurniture</packageId>
-		<displayName>Vault-Tec - Handy things for your vault!</displayName>
-		<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1888778429</downloadUrl>
+		<li>
+			<packageId>Twink.Vaultfurniture</packageId>
+			<displayName>Vault-Tec - Handy things for your vault!</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1888778429</downloadUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Twink.Vaultfurniture</li>

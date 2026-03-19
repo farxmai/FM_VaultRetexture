@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTsuit" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Apparel/VTjumpsuit/VTsuit</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTsuit" ]/apparel</xpath>
+				<value>
+					<useWornGraphicMask>true</useWornGraphicMask>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTsuit" ]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Inherit="true" Class="ColorGenerator_Options">
+						<options>
+							<li>
+								<weight>10</weight>
+								<only>(0.337,0.502,0.759)</only>
+							</li>
+						</options>
+					</colorGenerator>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTHelmet" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Apparel/VTarmor/Vsechelmet</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTHelmet" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTHelmet" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTHelmet" ]/stuffCategories</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTHelmet" ]/costStuffCount</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTJacket" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Apparel/VTarmor/SecA</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTJacket" ]/apparel</xpath>
+				<value>
+					<apparel>
+						<bodyPartGroups>
+							<li>Torso</li>
+							<li>Neck</li>
+							<li>Shoulders</li>
+						</bodyPartGroups>
+						<wornGraphicPath>Things/Apparel/VTarmor/SecA</wornGraphicPath>
+						<layers>
+							<li>Middle</li>
+						</layers>
+						<tags>
+							<li>IndustrialAdvanced</li>
+						</tags>
+						<defaultOutfitTags>
+							<li>Soldier</li>
+						</defaultOutfitTags>
+					</apparel>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Apparel_VTJacket" ]/colorGenerator</xpath>
+				<value>
+					<colorGenerator Class="ColorGenerator_Options" Inherit="true">
+						<options>
+							<li>
+								<weight>10</weight>
+								<only>(0.96,0.96,0.96)</only>
+							</li>
+							<li>
+								<weight>1</weight>
+								<only>(0.518,0.325,0.6184)</only>
+							</li>
+						</options>
+					</colorGenerator>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="PipBoy" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Apparel/Pipboy/PipBoy3000</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>1</drawSize>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+
+</Patch>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Vents/VaultVent_wallmounted</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]/altitudeLayer</xpath>
+				<value>
+					<altitudeLayer>BuildingOnTop</altitudeLayer>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]/passability</xpath>
+				<value>
+					<passability>PassThroughOnly</passability>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]/castEdgeShadows</xpath>
+				<value>
+					<castEdgeShadows>false</castEdgeShadows>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]</xpath>
+				<value>
+					<uiIconPath>Things/Building/Vents/VaultVent_wallmounted_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]/placeWorkers</xpath>
+				<value>
+					<placeWorkers>
+						<li>PlaceWorker_Vent</li>
+						<li MayRequire="VanillaExpanded.Temperature">VEF.Buildings.PlaceWorker_OnWall</li>
+					</placeWorkers>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]/fillPercent</xpath>
+				<value>
+					<fillPercent>0.75</fillPercent>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]/building</xpath>
+				<value>
+					<building>
+						<isInert>true</isInert>
+						<isEdifice>false</isEdifice>
+						<canPlaceOverWall>true</canPlaceOverWall>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTVaultVent" ]/comps</xpath>
+				<value>
+					<comps>
+						<li Class="CompProperties_Flickable">
+							<commandTexture>UI/Commands/Vent</commandTexture>
+							<commandLabelKey>CommandDesignateOpenCloseVentLabel</commandLabelKey>
+							<commandDescKey>CommandDesignateOpenCloseVentDesc</commandDescKey>
+						</li>
+						<li MayRequire="VanillaExpanded.Temperature" Class="VEF.Buildings.CompProperties_MountableOnWall"/>
+					</comps>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Heatera" or defName="VT_Coolera" or defName="VT_freezera" or defName="VT_freezerebb" or defName="VT_Heaterabb"  ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.9</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Heatera" or defName="VT_Coolera" or defName="VT_freezera" or defName="VT_freezerebb" or defName="VT_Heaterabb"  ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Heatera" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Vents/VaultVent_AC</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1,1)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Heatera" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Vents/VaultVent_AC</uiIconPath>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Coolera" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Vents/VaultVent_Stable</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1,1)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Coolera" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Vents/VaultVent_Stable</uiIconPath>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_freezera" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Vents/VaultVent_Freezer</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1,1)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_freezera" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Vents/VaultVent_Freezer</uiIconPath>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_freezerebb" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Vents/VaultVent_Security_cold</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1,1)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_freezerebb" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Vents/VaultVent_Security_cold</uiIconPath>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Heaterabb" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Vents/VaultVent_Security_hot</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1,1)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Heaterabb" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Vents/VaultVent_Security_hot</uiIconPath>
+				</value>
+			</li>
+
+
+		</operations>
+	</Operation>
+
+
+
+</Patch>

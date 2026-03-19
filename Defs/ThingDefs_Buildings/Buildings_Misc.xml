@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>VT_ToolsChest</defName>
+    <label>tool chest</label>
+    <description>Increases work speed when placed near a workbench. One workbench can use up to one tool chests.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/ToolChest</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Misc/ToolChest_MenuIcon</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.35</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>42</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>100</Steel>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>VaultFurniture</li>
+    </researchPrerequisites>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.05</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <defaultPlacingRot>South</defaultPlacingRot>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>VT_DiagnosticCart</defName>
+    <label>diagnostic cart</label>
+    <description>Increases work speed when placed near a workbench. One workbench can use up to one diagnostic cart.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/DiagnosticCart</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconPath>Things/Building/Misc/DiagnosticCart_MenuIcon</uiIconPath>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.35</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>42</pathCost>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>1800</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>100</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>VaultFurniture</li>
+    </researchPrerequisites>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableEfficiencyFactor>0.1</WorkTableEfficiencyFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <defaultPlacingRot>South</defaultPlacingRot>
+  </ThingDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>VaultMedicalGroup</defName>
+  </DesignatorDropdownGroupDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>VT_HospitalScreen</defName>
+    <label>hospital screen</label>
+    <description>A tall, impassable room divider. Must be placed near the bed. Slightly increase immunity gain speed.</description>
+    <size>(2,1)</size>
+    <graphicData>
+      <texPath>Things/Building/Medical/Divider/VT_HospitalScreen</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.5,2.5)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Things/Building/Medical/Divider/VT_HospitalScreen_MenuIcon</uiIconPath>
+    <uiIconScale>1.2</uiIconScale>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>10</Mass>
+      <WorkToBuild>1750</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>7</Beauty>
+    </statBases>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <costList>
+      <Steel>30</Steel>
+      <Cloth>20</Cloth>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+          <SurgerySuccessChanceFactor>0.02</SurgerySuccessChanceFactor>
+          <BedRestEffectiveness>0.05</BedRestEffectiveness>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>3</maxDistance>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <designationCategory>VaultItems</designationCategory>
+    <designatorDropdown>VaultMedicalGroup</designatorDropdown>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>VT_IVStand</defName>
+    <label>IV drip stand</label>
+    <description>A saline drip easily increases the patient's chances of successfully defeating the infection. Must be placed near the bed.</description>
+    <uiIconScale>0.7</uiIconScale>
+    <graphicData>
+      <texPath>Things/Building/Medical/dripstand</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>10</Mass>
+      <WorkToBuild>1750</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>7</Beauty>
+    </statBases>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <costList>
+      <Steel>30</Steel>
+      <vt_medicine>2</vt_medicine>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <designationCategory>VaultItems</designationCategory>
+    <designatorDropdown>VaultMedicalGroup</designatorDropdown>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>2</maxDistance>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>VT_MedicalCart</defName>
+    <label>medical cart</label>
+    <description>A cart with basic medical tools that increases the chances of successful surgery and medical interventions. Must be placed near the bed.</description>
+    <uiIconScale>0.7</uiIconScale>
+    <graphicData>
+      <texPath>Things/Building/Medical/medcart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.55,3.45)</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>10</Mass>
+      <WorkToBuild>1750</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>7</Beauty>
+    </statBases>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <costList>
+      <Steel>30</Steel>
+      <vt_medicine>4</vt_medicine>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <designationCategory>VaultItems</designationCategory>
+    <designatorDropdown>VaultMedicalGroup</designatorDropdown>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <MedicalTendQualityOffset>0.05</MedicalTendQualityOffset>
+          <SurgerySuccessChanceFactor>0.05</SurgerySuccessChanceFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <maxDistance>2</maxDistance>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+
+</Defs>

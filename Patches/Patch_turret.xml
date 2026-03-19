@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="VTTurret_MiniTurret" ]</xpath>
+        <value>
+          <drawerType>MapMeshAndRealTime</drawerType>
+          <drawHighlight>true</drawHighlight>
+          <drawHighlightOnlyForHostile>true</drawHighlightOnlyForHostile>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTTurret_MiniTurret" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Security/vt_ceiling_turret_base</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+              <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+            <shadowData>
+              <volume>(0.27,0.25,0.27)</volume>
+              <offset>(0,0,0)</offset>
+            </shadowData>
+          </graphicData>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTTurret_MiniTurret" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Security/vt_ceiling_turret_MenuIcon</uiIconPath>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTTurret_MiniTurret" ]/passability</xpath>
+        <value>
+          <passability>Standable</passability>
+        </value>
+      </li>
+
+
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTTurret_MiniTurret" ]/building</xpath>
+        <value>
+          <building>
+            <combatPower>300</combatPower>            <!-- same as a scavenger -->
+            <ai_combatDangerous>false</ai_combatDangerous>
+            <turretGunDef>VTTurret_GunMiniTurret</turretGunDef>
+            <turretBurstCooldownTime>0.01</turretBurstCooldownTime>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

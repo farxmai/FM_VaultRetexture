@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Batteryvt" ]</xpath>
+				<value>
+					<drawerType>MapMeshAndRealTime</drawerType>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_workbench" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_megabore" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vtrecycler" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vt_server" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1.2</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vtreactor" ]</xpath>
+				<value>
+					<uiIconScale>0.8</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vtcompter" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vtcompter" ]</xpath>
+				<value>
+					<uiIconOffset>(0,0.1)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmchair" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.85</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vault_sofa" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/Vault_DresserAE_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/Vault_DresserBE_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vtschooltable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vtschooltable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_ovtable" ]</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/ovtable_MenuIcon</uiIconPath>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_ovtable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_ovtable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vault_lamp" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/Vault_Interior_Lamp_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vault_lampb" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/Vault_Interior_Lampb_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vttablelamp" ]</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/Vault_mini_Lamp_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vttablelamp" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Wall_LampEE" ]/label</xpath>
+				<value>
+					<label>vault wall lamp</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Wall_LampEE" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/VT_WallLitE_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Wall_LampEE" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VT_Wall_LampEE" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="SimuWallSunLampE" ]/label</xpath>
+				<value>
+					<label>vault wall sun lamp</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="SimuWallSunLampE" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/VT_WallSunLite</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(1,1)</drawSize>
+						<drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+						<drawOffsetSouth>(0,0,-0.6)</drawOffsetSouth>
+						<drawOffsetWest>(-0.7,0,0)</drawOffsetWest>
+						<drawOffsetEast>(0.7,0,0)</drawOffsetEast>
+					</graphicData>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="SimuWallSunLampE" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/VT_WallSunLite_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="SimuWallSunLampE" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/label</xpath>
+				<value>
+					<label>vault table round (1x1)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Tables/VT_Table1x1_Round</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1.6,1.6)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>Metallic</li>
+						<li>Woody</li>
+						<li>Stony</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>10</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/costStuffCount</xpath>
+				<value>
+					<costStuffCount>10</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]</xpath>
+				<value>
+					<building>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/label</xpath>
+				<value>
+					<label>vault luxury table (1x1)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Tables/VT_Table1x1_RoundLux</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1.8,1.8)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>10</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>Leathery</li>
+						<li>Fabric</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]</xpath>
+				<value>
+					<building>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/label</xpath>
+				<value>
+					<label>vault minitable round (1x1) </label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Tables/VT_Table1x1_RoundMini</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1.4,1.4)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>Metallic</li>
+						<li>Woody</li>
+						<li>Stony</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>5</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/costStuffCount</xpath>
+				<value>
+					<costStuffCount>10</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]</xpath>
+				<value>
+					<building>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/label</xpath>
+				<value>
+					<label>vault table (1x1) </label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Tables/VT_Table1x1</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1.6,1.6)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>Metallic</li>
+						<li>Woody</li>
+						<li>Stony</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>10</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/costStuffCount</xpath>
+				<value>
+					<costStuffCount>10</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]</xpath>
+				<value>
+					<building>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_curio" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Luxury/curio</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>(3.55,3.45)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_curio" ]/size</xpath>
+				<value>
+					<size>(1,1)</size>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_curio" ]</xpath>
+				<value>
+					<uiIconPath>Things/Building/Luxury/curio_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_curio" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_curio" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_curio" ]</xpath>
+				<value>
+					<defaultPlacingRot>South</defaultPlacingRot>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmdiner" ]/label</xpath>
+				<value>
+					<label>vault diner bench</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmdiner" ]/building</xpath>
+				<value>
+					<building>
+						<isSittable>true</isSittable>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vault_sofa" ]/label</xpath>
+				<value>
+					<label>vault couch</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vault_sofa" ]/building</xpath>
+				<value>
+					<building>
+						<isSittable>true</isSittable>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmchair" ]/label</xpath>
+				<value>
+					<label>vault armchair</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmchair" ]/building</xpath>
+				<value>
+					<building>
+						<isSittable>true</isSittable>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmchair" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/vtarmchair</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>(3,3)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="HospitalBedVault" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedicallamp" ]/label</xpath>
+				<value>
+					<label>medical lamp</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedicallamp" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Medical/medilamp</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3.55,3.45)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedicallamp" ]</xpath>
+				<value>
+					<designatorDropdown>VaultMedicalGroup</designatorDropdown>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedical" ]/label</xpath>
+				<value>
+					<label>oxigen tank</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedical" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>50</Steel>
+						<vt_medicine>4</vt_medicine>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedical" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Medical/airthing</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(3.55,3.45)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedical" ]</xpath>
+				<value>
+					<rotatable>false</rotatable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedical" ]/defaultPlacingRot</xpath>
+				<value>
+					<defaultPlacingRot>North</defaultPlacingRot>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Vaultmedical" ]</xpath>
+				<value>
+					<designatorDropdown>VaultMedicalGroup</designatorDropdown>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Vault_DresserAE</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3.55,3.45)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Vault_DresserBE</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3.55,3.45)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vaultshelf" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/vault_shelf</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,2)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="minivaultshelf" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/vault_minishelf</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,2)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Door -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTDoor" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Doors/lightDoorVT_Mover</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<damageData>
+							<enabled>false</enabled>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTDoor" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Doors/lightDoorVT_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTDoor" ]/building/blueprintGraphicData</xpath>
+				<value>
+					<blueprintGraphicData>
+						<texPath>Things/Building/Doors/lightDoorVT_Atlas</texPath>
+					</blueprintGraphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTautoDoor" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Doors/DoorVT_Mover</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<damageData>
+							<enabled>false</enabled>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTautoDoor" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Doors/DoorVT_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTautoDoor" ]/building/blueprintGraphicData</xpath>
+				<value>
+					<blueprintGraphicData>
+						<texPath>Things/Building/Doors/DoorVT_Atlas</texPath>
+					</blueprintGraphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultmainDoor" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Doors/GearDoor_Mover</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<damageData>
+							<enabled>false</enabled>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultmainDoor" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Doors/GearDoor_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultmainDoor" ]/building</xpath>
+				<value>
+					<blueprintGraphicData>
+						<texPath>Things/Building/Doors/GearDoor_Atlas</texPath>
+					</blueprintGraphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTautoDoorwindow" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Doors/autoDoorVT_Mover</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<damageData>
+							<enabled>false</enabled>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTautoDoorwindow" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Doors/autoDoorVT_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTautoDoorwindow" ]/building/blueprintGraphicData</xpath>
+				<value>
+					<blueprintGraphicData>
+						<texPath>Things/Building/Doors/autoDoorVT_Atlas</texPath>
+					</blueprintGraphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTDoorwindow" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Doors/blueDoorVT_Mover</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<damageData>
+							<enabled>false</enabled>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTDoorwindow" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Doors/blueDoorVT_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTDoorwindow" ]/building/blueprintGraphicData</xpath>
+				<value>
+					<blueprintGraphicData>
+						<texPath>Things/Building/Doors/blueDoorVT_Atlas</texPath>
+					</blueprintGraphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTsecDoor" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Doors/securityDoorVT_Mover</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<damageData>
+							<enabled>false</enabled>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTsecDoor" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Doors/securityDoorVT_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTsecDoor" ]/building/blueprintGraphicData</xpath>
+				<value>
+					<blueprintGraphicData>
+						<texPath>Things/Building/Doors/securityDoorVT_Atlas</texPath>
+					</blueprintGraphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/designatorDropdown</xpath>
+				<value>
+					<designatorDropdown Inherit="False" />
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories Inherit="False">
+						<li>Metallic</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/costList</xpath>
+				<value>
+					<costList Inherit="False">
+						<ComponentIndustrial>2</ComponentIndustrial>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]</xpath>
+				<value>
+					<costStuffCount Inherit="False">
+						800
+					</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Doors/VaultDoor/VaultDoor2x2_Mover</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(4,4.9)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<enabled>false</enabled>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Doors/VaultDoor/VaultDoor_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/building</xpath>
+				<value>
+					<building>
+						<isAirtight>true</isAirtight>
+						<paintable>true</paintable>
+						<poweredDoorOpenSpeedFactor>25</poweredDoorOpenSpeedFactor>
+						<poweredDoorCloseSpeedFactor>25</poweredDoorCloseSpeedFactor>
+						<unpoweredDoorOpenSpeedFactor>45</unpoweredDoorOpenSpeedFactor>
+						<unpoweredDoorCloseSpeedFactor>45</unpoweredDoorCloseSpeedFactor>
+						<blueprintClass>Blueprint_Build</blueprintClass>
+						<blueprintGraphicData>
+							<texPath>Things/Building/Doors/VaultDoor/VaultDoor_MenuIcon</texPath>
+							<graphicClass>Graphic_Multi</graphicClass>
+							<shaderType>EdgeDetect</shaderType>
+							<drawSize>(1.5, 1.5)</drawSize>
+						</blueprintGraphicData>
+						<doorTopGraphic>
+							<texPath>Things/Building/Doors/VaultDoor/VaultDoor2x2_Top</texPath>
+							<graphicClass>Graphic_Multi</graphicClass>
+							<drawSize>(4,4.9)</drawSize>
+						</doorTopGraphic>
+						<upperMoverGraphic>
+							<texPath>Things/Building/Doors/VaultDoor/VaultDoor2x2_MoverUpper</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<drawSize>(4,4.9)</drawSize>
+							<shaderType>CutoutComplex</shaderType>
+						</upperMoverGraphic>
+						<doorSupportGraphic>
+							<texPath>Things/Building/Doors/VaultDoor/VaultDoor2x2_Support</texPath>
+							<graphicClass>Graphic_Multi</graphicClass>
+							<drawSize>(4,4.9)</drawSize>
+						</doorSupportGraphic>
+						<soundDoorOpenPowered>VaultDoorOpenPowered</soundDoorOpenPowered>
+						<soundDoorClosePowered>VaultDoorClosePowered</soundDoorClosePowered>
+						<soundDoorOpenManual>VaultDoorOpenManual</soundDoorOpenManual>
+						<soundDoorCloseManual>VaultDoorCloseManual</soundDoorCloseManual>
+						<soundDoorCloseEnd>SecurityDoor_EndClosing</soundDoorCloseEnd>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- Walls -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormale" or defName="VaultLuxWallsNormalseventy" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_eastcoast</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(195, 192, 176)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormale" or defName="VaultLuxWallsNormalseventy" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormale" or defName="VaultLuxWallsNormalseventy" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_eastcoast_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalseventy" ]/graphicData/color</xpath>
+				<value>
+					<color>(24, 65, 121)</color>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalewindow" or defName="VaultLuxWallsseventywwindow" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_eastcoast_window</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(195, 192, 176)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalewindow" or defName="VaultLuxWallsseventywwindow" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalewindow" or defName="VaultLuxWallsseventywwindow" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_eastcoast_window_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsseventywwindow" ]/graphicData/color</xpath>
+				<value>
+					<color>(24, 65, 121)</color>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormaleroundwindow" or defName="VaultLuxWallroundsseventywwindow" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_eastcoast_window_round</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(195, 192, 176)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormaleroundwindow" or defName="VaultLuxWallroundsseventywwindow" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormaleroundwindow" or defName="VaultLuxWallroundsseventywwindow" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_eastcoast_window_round_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallroundsseventywwindow" ]/graphicData/color</xpath>
+				<value>
+					<color>(24, 65, 121)</color>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultmainten" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_maintenance</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(81, 81, 81)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Vaultmainten" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultmainten" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_maintenance_MenuIcon</uiIconPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultsecurityprison" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_security</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(81, 81, 81)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Vaultsecurityprison" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultsecurityprison" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_security_MenuIcon</uiIconPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs</xpath>
+				<value>
+					<ThingDef ParentName="WallBase">
+						<defName>Vaultsecurityprisonwindows</defName>
+						<label>vault security walls window </label>
+						<thingClass>Building</thingClass>
+						<category>Building</category>
+						<description>A wall that does not transmit energy. Use in combination with heat/cold security vents to create areas of devastating heat or cold to incapacitate enemies.</description>
+						<graphicData>
+							<texPath>Things/Building/Walls/VaultWall_security_windows</texPath>
+							<graphicClass>Graphic_Single</graphicClass>
+							<shaderType>CutoutComplex</shaderType>
+							<color>(81, 81, 81)</color>
+							<graphicClass>Graphic_Single</graphicClass>
+							<linkType>CornerFiller</linkType>
+							<linkFlags>
+								<li>Wall</li>
+								<li>Rock</li>
+							</linkFlags>
+							<damageData>
+								<cornerTL>Damage/Corner</cornerTL>
+								<cornerTR>Damage/Corner</cornerTR>
+								<cornerBL>Damage/Corner</cornerBL>
+								<cornerBR>Damage/Corner</cornerBR>
+								<edgeTop>Damage/Edge</edgeTop>
+								<edgeBot>Damage/Edge</edgeBot>
+								<edgeLeft>Damage/Edge</edgeLeft>
+								<edgeRight>Damage/Edge</edgeRight>
+							</damageData>
+						</graphicData>
+						<uiIconPath>Things/Building/Walls/VaultWall_security_windows_MenuIcon</uiIconPath>
+						<statBases>
+							<MaxHitPoints>550</MaxHitPoints>
+							<WorkToBuild>150</WorkToBuild>
+							<Mass>100</Mass>
+							<Flammability>0.0</Flammability>
+						</statBases>
+						<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+						<altitudeLayer>Building</altitudeLayer>
+						<passability>Impassable</passability>
+						<blockWind>true</blockWind>
+						<castEdgeShadows>true</castEdgeShadows>
+						<fillPercent>1</fillPercent>
+						<coversFloor>true</coversFloor>
+						<drawStyleCategory>Walls</drawStyleCategory>
+						<tickerType>Never</tickerType>
+						<rotatable>false</rotatable>
+						<selectable>true</selectable>
+						<neverMultiSelect>true</neverMultiSelect>
+						<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+						<holdsRoof>true</holdsRoof>
+						<staticSunShadowHeight>1.0</staticSunShadowHeight>
+						<blockLight>true</blockLight>
+						<canOverlapZones>false</canOverlapZones>
+						<costList>
+							<Steel>5</Steel>
+						</costList>
+						<building>
+							<paintable>true</paintable>
+							<supportsWallAttachments>true</supportsWallAttachments>
+							<isInert>true</isInert>
+							<blueprintGraphicData>
+								<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+							</blueprintGraphicData>
+						</building>
+						<designationCategory>VaultItems</designationCategory>
+						<designatorDropdown>VaultLuexWallsNormale</designatorDropdown>
+						<researchPrerequisites>
+							<li>Vaultbasics</li>
+						</researchPrerequisites>
+					</ThingDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalw" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_westcoast</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(195, 192, 176)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalw" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalw" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_westcoast_MenuIcon</uiIconPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalwwindow" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_westcoast_window</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(195, 192, 176)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalwwindow" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalwwindow" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_westcoast_window_MenuIcon</uiIconPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalroundwwindow" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_westcoast_window_round</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(195, 192, 176)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalroundwwindow" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsNormalroundwwindow" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_westcoast_window_round_MenuIcon</uiIconPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- marine (38, 59, 90) -->
+	<!-- auburn (138, 51, 36) -->
+	<!-- green (89, 105, 62) -->
+	<!-- light gray (166, 166, 166) -->
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWalls" or defName="VaultLuxWallsBlue" or defName="VaultLuxWallsGreen" or defName="VaultLuxWallsSilver" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_luxury</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(195, 192, 176)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWalls" or defName="VaultLuxWallsBlue" or defName="VaultLuxWallsGreen" or defName="VaultLuxWallsSilver" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWalls" or defName="VaultLuxWallsBlue" or defName="VaultLuxWallsGreen" or defName="VaultLuxWallsSilver" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_luxury_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWalls" ]/graphicData/color</xpath>
+				<value>
+					<color>(138, 51, 36)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsBlue" ]/graphicData/color</xpath>
+				<value>
+					<color>(38, 59, 90)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsGreen" ]/graphicData/color</xpath>
+				<value>
+					<color>(89, 105, 62)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWallsSilver" ]/graphicData/color</xpath>
+				<value>
+					<color>(166, 166, 166)</color>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWindows" or defName="VaultLuxWindowsBlue" or defName="VaultLuxWindowsGreen" or defName="VaultLuxWindowsSilver" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_luxury_windows</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(195, 192, 176)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWindows" or defName="VaultLuxWindowsBlue" or defName="VaultLuxWindowsGreen" or defName="VaultLuxWindowsSilver" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWindows" or defName="VaultLuxWindowsBlue" or defName="VaultLuxWindowsGreen" or defName="VaultLuxWindowsSilver" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_luxury_windows_MenuIcon</uiIconPath>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWindows" ]/graphicData/color</xpath>
+				<value>
+					<color>(138, 51, 36)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWindowsBlue" ]/graphicData/color</xpath>
+				<value>
+					<color>(38, 59, 90)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWindowsGreen" ]/graphicData/color</xpath>
+				<value>
+					<color>(89, 105, 62)</color>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultLuxWindowsSilver" ]/graphicData/color</xpath>
+				<value>
+					<color>(166, 166, 166)</color>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultowNormalseventy" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_overseer</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(1, 1, 1)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VaultowNormalseventy" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VaultowNormalseventy" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_overseer_MenuIcon</uiIconPath>
+				</value>
+			</li>
+
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultwallovround" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_overseer_windows</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(1, 1, 1)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Vaultwallovround" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultwallovround" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_overseer_windows_MenuIcon</uiIconPath>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTPlateWalls" or defName="VTPlateWallsno" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_exterior</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(1, 1, 1)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="VTPlateWalls" or defName="VTPlateWallsno" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="VTPlateWalls" or defName="VTPlateWallsno" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_exterior_MenuIcon</uiIconPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultembesaureeno" or defName="Vaultembesauree" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Walls/VaultWall_exterior_embrasures</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<color>(1, 1, 1)</color>
+						<graphicClass>Graphic_Single</graphicClass>
+						<linkType>CornerFiller</linkType>
+						<linkFlags>
+							<li>Wall</li>
+							<li>Rock</li>
+						</linkFlags>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+							<edgeTop>Damage/Edge</edgeTop>
+							<edgeBot>Damage/Edge</edgeBot>
+							<edgeLeft>Damage/Edge</edgeLeft>
+							<edgeRight>Damage/Edge</edgeRight>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Vaultembesaureeno" or defName="Vaultembesauree" ]/building</xpath>
+				<value>
+					<paintable>true</paintable>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vaultembesaureeno" or defName="Vaultembesauree" ]/uiIconPath</xpath>
+				<value>
+					<uiIconPath>Things/Building/Walls/VaultWall_exterior_embrasures_MenuIcon</uiIconPath>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+</Patch>

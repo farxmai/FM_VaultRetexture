@@ -83,4 +83,6 @@ All textures in this addon were made by the author of this retexture package and
 <img width="2304" height="1536" alt="FALLOUT_FURNITURE_3" src="https://github.com/user-attachments/assets/0dfc8648-8a7e-4e63-bc29-e10a71b4d571" />
 <img width="2304" height="1536" alt="FALLOUT_FURNITURE_2" src="https://github.com/user-attachments/assets/eae479ef-98c2-45c6-9223-3ed4ed6c3b45" />
 <img width="2304" height="1536" alt="FALLOUT_FURNITURE_1" src="https://github.com/user-attachments/assets/9d0f85b3-16a5-4a65-aed4-ecd14e0b6681" />
+<img width="2304" height="1300" alt="FALLOUT_FURNITURE_8" src="https://github.com/user-attachments/assets/c0615acd-1aba-4c93-b74d-994d35614d4e" />
+
 

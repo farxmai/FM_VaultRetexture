@@ -42,6 +42,16 @@ This mod is a dependent add-on, not a standalone content pack.
 - Adds a dedicated `ceiling turret gun` def.
 - Reworks the Vault-Tec mini turret into a ceiling-mounted style turret with updated base texture, icon, and behavior patching.
 
+### AdaptiveStorage support (1.6)
+
+- Includes `AdaptiveStorage.GraphicsDef` configs for:
+  - `vaultshelf`
+  - `minivaultshelf`
+  - `VaultWardrobeA`
+  - `VaultWardrobeB`
+- Shelves use custom layered graphics and display stored items.
+- Both locker defs are configured with hidden contents (`showContainedItems=false`).
+
 ## Retexture Coverage
 
 This package includes retextures and icon adjustments for a broad selection of existing Vault-Tec content, including:
@@ -65,6 +75,7 @@ This package includes retextures and icon adjustments for a broad selection of e
 - Expands facility links for Vault-Tec workbenches and hospital beds.
 - Makes the main vault vent wall-mount capable and paintable.
 - Adjusts labels, graphics, and icon settings for several inherited Vault-Tec defs.
+- Adds 1.6 AdaptiveStorage visuals for shelves and lockers.
 
 ## Load Order
 
@@ -84,5 +95,3 @@ All textures in this addon were made by the author of this retexture package and
 <img width="2304" height="1536" alt="FALLOUT_FURNITURE_2" src="https://github.com/user-attachments/assets/eae479ef-98c2-45c6-9223-3ed4ed6c3b45" />
 <img width="2304" height="1536" alt="FALLOUT_FURNITURE_1" src="https://github.com/user-attachments/assets/9d0f85b3-16a5-4a65-aed4-ecd14e0b6681" />
 <img width="2304" height="1300" alt="FALLOUT_FURNITURE_8" src="https://github.com/user-attachments/assets/c0615acd-1aba-4c93-b74d-994d35614d4e" />
-
-

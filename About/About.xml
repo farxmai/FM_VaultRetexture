@@ -6,6 +6,8 @@
 		<li>1.6</li>
 	</supportedVersions>
 	<packageId>FM.Vaultfurniture</packageId>
+	<steamAppId>3688643167</steamAppId>
+	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=3688643167</url>
 	<description>A few minor fixes and a bunch of new textures for an old but beloved mod. All textures are made by me, and are free to use for anyone who wants to use them, but I ask that you credit me if you do. I also ask that you don't use them for commercial purposes, but other than that, go nuts.</description>
 	<modDependencies>
 		<li>
@@ -16,6 +18,7 @@
 	</modDependencies>
 	<loadAfter>
 		<li>Twink.Vaultfurniture</li>
+		<li>adaptive.storage.framework</li>
 	</loadAfter>
 
 </ModMetaData>

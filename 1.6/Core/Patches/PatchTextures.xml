@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="Batteryvt" ]</xpath>
+				<value>
+					<drawerType>MapMeshAndRealTime</drawerType>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_workbench" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_megabore" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vtrecycler" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vt_server" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1.2</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vtreactor" ]</xpath>
+				<value>
+					<uiIconScale>0.8</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vtcompter" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vtcompter" ]</xpath>
+				<value>
+					<uiIconOffset>(0,0.1)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmchair" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.85</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vault_sofa" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+
+
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vtschooltable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vtschooltable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_ovtable" ]</xpath>
+				<value>
+					<uiIconPath>Things/Building/Furniture/ovtable_MenuIcon</uiIconPath>
+				</value>
+			</li>
+
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_ovtable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>1</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_ovtable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/label</xpath>
+				<value>
+					<label>vault table round (1x1)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Tables/VT_Table1x1_Round</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1.6,1.6)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>Metallic</li>
+						<li>Woody</li>
+						<li>Stony</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>10</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]/costStuffCount</xpath>
+				<value>
+					<costStuffCount>10</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_minitable" ]</xpath>
+				<value>
+					<building>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/label</xpath>
+				<value>
+					<label>vault luxury table (1x1)</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Tables/VT_Table1x1_RoundLux</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1.8,1.8)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>10</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>Leathery</li>
+						<li>Fabric</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_luxminitable" ]</xpath>
+				<value>
+					<building>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/label</xpath>
+				<value>
+					<label>vault minitable round (1x1) </label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Tables/VT_Table1x1_RoundMini</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1.4,1.4)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>Metallic</li>
+						<li>Woody</li>
+						<li>Stony</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>5</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/costStuffCount</xpath>
+				<value>
+					<costStuffCount>10</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_miniminitable" ]</xpath>
+				<value>
+					<building>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/label</xpath>
+				<value>
+					<label>vault table (1x1) </label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/Tables/VT_Table1x1</texPath>
+						<graphicClass>Graphic_Single</graphicClass>
+						<drawSize>(1.6,1.6)</drawSize>
+						<shaderType>CutoutComplex</shaderType>
+						<damageData>
+							<cornerTL>Damage/Corner</cornerTL>
+							<cornerTR>Damage/Corner</cornerTR>
+							<cornerBL>Damage/Corner</cornerBL>
+							<cornerBR>Damage/Corner</cornerBR>
+						</damageData>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/stuffCategories</xpath>
+				<value>
+					<stuffCategories>
+						<li>Metallic</li>
+						<li>Woody</li>
+						<li>Stony</li>
+					</stuffCategories>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/costList</xpath>
+				<value>
+					<costList>
+						<Steel>10</Steel>
+					</costList>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/costStuffCount</xpath>
+				<value>
+					<costStuffCount>10</costStuffCount>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/uiIconScale</xpath>
+				<value>
+					<uiIconScale>0.7</uiIconScale>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]/uiIconOffset</xpath>
+				<value>
+					<uiIconOffset>(0,0)</uiIconOffset>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/ThingDef[ defName="vt_newminitable" ]</xpath>
+				<value>
+					<building>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmdiner" ]/label</xpath>
+				<value>
+					<label>vault diner bench</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmdiner" ]/building</xpath>
+				<value>
+					<building>
+						<isSittable>true</isSittable>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vault_sofa" ]/label</xpath>
+				<value>
+					<label>vault couch</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vault_sofa" ]/building</xpath>
+				<value>
+					<building>
+						<isSittable>true</isSittable>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmchair" ]/label</xpath>
+				<value>
+					<label>vault armchair</label>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmchair" ]/building</xpath>
+				<value>
+					<building>
+						<isSittable>true</isSittable>
+						<paintable>true</paintable>
+					</building>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="Vtarmchair" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/vtarmchair</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<shaderType>CutoutComplex</shaderType>
+						<drawSize>(3,3)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+
+
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vaultshelf" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/vault_shelf</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,2)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="minivaultshelf" ]/graphicData</xpath>
+				<value>
+					<graphicData>
+						<texPath>Things/Building/Furniture/vault_minishelf</texPath>
+						<graphicClass>Graphic_Multi</graphicClass>
+						<drawSize>(3,2)</drawSize>
+					</graphicData>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="vaultshelf" ]/building</xpath>
+				<value>
+					<building>
+						<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+						<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+						<maxItemsInCell>6</maxItemsInCell>
+						<blueprintClass>Blueprint_Storage</blueprintClass>
+						<paintable>true</paintable>
+						<storageGroupTag>Shelf</storageGroupTag>
+						<fixedStorageSettings>
+							<filter>
+								<disallowNotEverStorable>true</disallowNotEverStorable>
+								<categories>
+									<li>Root</li>
+								</categories>
+								<disallowedCategories>
+									<li>Chunks</li>
+									<li>Plants</li>
+									<li>Buildings</li>
+								</disallowedCategories>
+								<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+									<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+								</disallowedThingDefs>
+								<specialFiltersToDisallow>
+									<li>AllowLargeCorpses</li>
+								</specialFiltersToDisallow>
+							</filter>
+						</fixedStorageSettings>
+						<defaultStorageSettings>
+							<priority>Preferred</priority>
+							<filter>
+								<categories>
+									<li>Foods</li>
+									<li>Manufactured</li>
+									<li>ResourcesRaw</li>
+									<li>Items</li>
+									<li>Weapons</li>
+									<li>Apparel</li>
+									<li>BodyParts</li>
+								</categories>
+							</filter>
+						</defaultStorageSettings>
+					</building>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>/Defs/ThingDef[ defName="minivaultshelf" ]/building</xpath>
+				<value>
+					<building>
+						<preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+						<ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+						<maxItemsInCell>4</maxItemsInCell>
+						<blueprintClass>Blueprint_Storage</blueprintClass>
+						<paintable>true</paintable>
+						<storageGroupTag>Shelf</storageGroupTag>
+						<fixedStorageSettings>
+							<filter>
+								<disallowNotEverStorable>true</disallowNotEverStorable>
+								<categories>
+									<li>Root</li>
+								</categories>
+								<disallowedCategories>
+									<li>Chunks</li>
+									<li>Plants</li>
+									<li>Buildings</li>
+								</disallowedCategories>
+								<disallowedThingDefs MayRequire="Ludeon.RimWorld.Biotech">
+									<li MayRequire="Ludeon.RimWorld.Biotech">Wastepack</li>
+								</disallowedThingDefs>
+								<specialFiltersToDisallow>
+									<li>AllowLargeCorpses</li>
+								</specialFiltersToDisallow>
+							</filter>
+						</fixedStorageSettings>
+						<defaultStorageSettings>
+							<priority>Preferred</priority>
+							<filter>
+								<categories>
+									<li>Foods</li>
+									<li>Manufactured</li>
+									<li>ResourcesRaw</li>
+									<li>Items</li>
+									<li>Weapons</li>
+									<li>Apparel</li>
+									<li>BodyParts</li>
+								</categories>
+							</filter>
+						</defaultStorageSettings>
+					</building>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+
+
+
+
+</Patch>

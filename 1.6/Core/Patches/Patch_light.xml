@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vault_lamp" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Furniture/Vault_Interior_Lamp_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vault_lampb" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Furniture/Vault_Interior_Lampb_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="vttablelamp" ]</xpath>
+        <value>
+          <uiIconPath>Things/Building/Furniture/Vault_mini_Lamp_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vttablelamp" ]/uiIconScale</xpath>
+        <value>
+          <uiIconScale>1</uiIconScale>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VT_Wall_LampEE" ]/label</xpath>
+        <value>
+          <label>vault wall lamp</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VT_Wall_LampEE" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Furniture/VT_WallLitE_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VT_Wall_LampEE" ]/uiIconScale</xpath>
+        <value>
+          <uiIconScale>1</uiIconScale>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VT_Wall_LampEE" ]/uiIconOffset</xpath>
+        <value>
+          <uiIconOffset>(0,0)</uiIconOffset>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="SimuWallSunLampE" ]/label</xpath>
+        <value>
+          <label>vault wall sun lamp</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="SimuWallSunLampE" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Furniture/VT_WallSunLite</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1,1)</drawSize>
+            <drawOffsetNorth>(0,0,0.9)</drawOffsetNorth>
+            <drawOffsetSouth>(0,0,-0.6)</drawOffsetSouth>
+            <drawOffsetWest>(-0.7,0,0)</drawOffsetWest>
+            <drawOffsetEast>(0.7,0,0)</drawOffsetEast>
+          </graphicData>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="SimuWallSunLampE" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Furniture/VT_WallSunLite_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="SimuWallSunLampE" ]/uiIconScale</xpath>
+        <value>
+          <uiIconScale>1</uiIconScale>
+        </value>
+      </li>
+
+    </operations>
+  </Operation>
+
+</Patch>

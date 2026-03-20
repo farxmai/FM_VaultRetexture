@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Door -->
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTDoor" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Doors/lightDoorVT_Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTDoor" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Doors/lightDoorVT_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTDoor" ]/building/blueprintGraphicData</xpath>
+        <value>
+          <blueprintGraphicData>
+            <texPath>Things/Building/Doors/lightDoorVT_Atlas</texPath>
+          </blueprintGraphicData>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTautoDoor" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Doors/DoorVT_Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTautoDoor" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Doors/DoorVT_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTautoDoor" ]/building/blueprintGraphicData</xpath>
+        <value>
+          <blueprintGraphicData>
+            <texPath>Things/Building/Doors/DoorVT_Atlas</texPath>
+          </blueprintGraphicData>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultmainDoor" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Doors/GearDoor_Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultmainDoor" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Doors/GearDoor_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="VaultmainDoor" ]/building</xpath>
+        <value>
+          <blueprintGraphicData>
+            <texPath>Things/Building/Doors/GearDoor_Atlas</texPath>
+          </blueprintGraphicData>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTautoDoorwindow" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Doors/autoDoorVT_Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTautoDoorwindow" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Doors/autoDoorVT_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTautoDoorwindow" ]/building/blueprintGraphicData</xpath>
+        <value>
+          <blueprintGraphicData>
+            <texPath>Things/Building/Doors/autoDoorVT_Atlas</texPath>
+          </blueprintGraphicData>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTDoorwindow" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Doors/blueDoorVT_Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTDoorwindow" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Doors/blueDoorVT_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTDoorwindow" ]/building/blueprintGraphicData</xpath>
+        <value>
+          <blueprintGraphicData>
+            <texPath>Things/Building/Doors/blueDoorVT_Atlas</texPath>
+          </blueprintGraphicData>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTsecDoor" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Doors/securityDoorVT_Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTsecDoor" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Doors/securityDoorVT_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VTsecDoor" ]/building/blueprintGraphicData</xpath>
+        <value>
+          <blueprintGraphicData>
+            <texPath>Things/Building/Doors/securityDoorVT_Atlas</texPath>
+          </blueprintGraphicData>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/designatorDropdown</xpath>
+        <value>
+          <designatorDropdown Inherit="False" />
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="False">
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/costList</xpath>
+        <value>
+          <costList Inherit="False">
+            <ComponentIndustrial>2</ComponentIndustrial>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]</xpath>
+        <value>
+          <costStuffCount Inherit="False">
+						800
+          </costStuffCount>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Doors/VaultDoor/VaultDoor2x2_Mover</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(4,4.9)</drawSize>
+            <shaderType>CutoutComplex</shaderType>
+            <damageData>
+              <enabled>false</enabled>
+            </damageData>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/uiIconPath</xpath>
+        <value>
+          <uiIconPath>Things/Building/Doors/VaultDoor/VaultDoor_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="MainVaultDoor" or defName="MainVaultDoortwo" ]/building</xpath>
+        <value>
+          <building>
+            <isAirtight>true</isAirtight>
+            <paintable>true</paintable>
+            <poweredDoorOpenSpeedFactor>25</poweredDoorOpenSpeedFactor>
+            <poweredDoorCloseSpeedFactor>25</poweredDoorCloseSpeedFactor>
+            <unpoweredDoorOpenSpeedFactor>45</unpoweredDoorOpenSpeedFactor>
+            <unpoweredDoorCloseSpeedFactor>45</unpoweredDoorCloseSpeedFactor>
+            <blueprintClass>Blueprint_Build</blueprintClass>
+            <blueprintGraphicData>
+              <texPath>Things/Building/Doors/VaultDoor/VaultDoor_MenuIcon</texPath>
+              <graphicClass>Graphic_Multi</graphicClass>
+              <shaderType>EdgeDetect</shaderType>
+              <drawSize>(1.5, 1.5)</drawSize>
+            </blueprintGraphicData>
+            <doorTopGraphic>
+              <texPath>Things/Building/Doors/VaultDoor/VaultDoor2x2_Top</texPath>
+              <graphicClass>Graphic_Multi</graphicClass>
+              <drawSize>(4,4.9)</drawSize>
+            </doorTopGraphic>
+            <upperMoverGraphic>
+              <texPath>Things/Building/Doors/VaultDoor/VaultDoor2x2_MoverUpper</texPath>
+              <graphicClass>Graphic_Single</graphicClass>
+              <drawSize>(4,4.9)</drawSize>
+              <shaderType>CutoutComplex</shaderType>
+            </upperMoverGraphic>
+            <doorSupportGraphic>
+              <texPath>Things/Building/Doors/VaultDoor/VaultDoor2x2_Support</texPath>
+              <graphicClass>Graphic_Multi</graphicClass>
+              <drawSize>(4,4.9)</drawSize>
+            </doorSupportGraphic>
+            <soundDoorOpenPowered>VaultDoorOpenPowered</soundDoorOpenPowered>
+            <soundDoorClosePowered>VaultDoorClosePowered</soundDoorClosePowered>
+            <soundDoorOpenManual>VaultDoorOpenManual</soundDoorOpenManual>
+            <soundDoorCloseManual>VaultDoorCloseManual</soundDoorCloseManual>
+            <soundDoorCloseEnd MayRequire="Ludeon.RimWorld.Anomaly">SecurityDoor_EndClosing</soundDoorCloseEnd>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

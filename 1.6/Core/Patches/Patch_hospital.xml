@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="HospitalBedVault" ]/building</xpath>
+        <value>
+          <paintable>true</paintable>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedicallamp" ]/label</xpath>
+        <value>
+          <label>medical lamp</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedicallamp" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Medical/medilamp</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.55,3.45)</drawSize>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedicallamp" ]</xpath>
+        <value>
+          <designatorDropdown>VaultMedicalGroup</designatorDropdown>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedical" ]/label</xpath>
+        <value>
+          <label>oxigen tank</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedical" ]/costList</xpath>
+        <value>
+          <costList>
+            <Steel>50</Steel>
+            <vt_medicine>4</vt_medicine>
+          </costList>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedical" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Medical/airthing</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3.55,3.45)</drawSize>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedical" ]</xpath>
+        <value>
+          <rotatable>false</rotatable>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedical" ]/defaultPlacingRot</xpath>
+        <value>
+          <defaultPlacingRot>North</defaultPlacingRot>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="Vaultmedical" ]</xpath>
+        <value>
+          <designatorDropdown>VaultMedicalGroup</designatorDropdown>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>

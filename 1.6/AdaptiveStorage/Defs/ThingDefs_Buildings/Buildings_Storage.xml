@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Small Shelf -->
+  <!-- Big Shelf -->
+
+  <!-- Small Locker -->
+  <!-- Big Locker -->
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>FM_vaultshelfASF</defName>
+    <targetDef>vaultshelf</targetDef>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>Things/Building/Storage/VaultShelf/vault_shelf</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(3,2)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <graphicDatas>
+          <li>
+            <texPath>Things/Building/Storage/VaultShelf/vault_shelfLayer</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,2)</drawSize>
+            <drawRotated>false</drawRotated>
+            <renderQueue>2950</renderQueue>
+            <altitudeLayer>ItemImportant</altitudeLayer>
+            <drawOffset>(0,1.2,0)</drawOffset>
+          </li>
+        </graphicDatas>
+      </li>
+    </graphics>
+    <showContainedItems>true</showContainedItems>
+    <itemGraphics>
+      <columns>
+        <c0>
+          <rows>
+            <r0>
+              <stackBehaviour>Stack</stackBehaviour>
+              <stackOffset>(0.233,0,0)</stackOffset>
+              <stackOffsetEast>(0,-0.02,0.185)</stackOffsetEast>
+              <stackOffsetWest>(0,-0.02,0.185)</stackOffsetWest>
+              <drawOffset>(0.09,2.05,0.45)</drawOffset>
+              <drawOffsetEast>(0,2.05,0.65)</drawOffsetEast>
+              <drawOffsetWest>(0,2.05,0.65)</drawOffsetWest>
+              <drawScale>0.9</drawScale>
+              <rotation>0</rotation>
+            </r0>
+          </rows>
+        </c0>
+        <c1>
+          <rows>
+            <r0>
+              <stackBehaviour>Stack</stackBehaviour>
+              <stackOffset>(0.233,0,0)</stackOffset>
+              <stackOffsetEast>(0,-0.02,0.185)</stackOffsetEast>
+              <stackOffsetWest>(0,-0.02,0.185)</stackOffsetWest>
+              <drawOffset>(-0.91,0,-0.10)</drawOffset>
+              <drawOffsetEast>(0,0.1,-0.95)</drawOffsetEast>
+              <drawOffsetWest>(0,0.1,-0.95)</drawOffsetWest>
+              <drawScale>0.9</drawScale>
+              <rotation>0</rotation>
+            </r0>
+          </rows>
+        </c1>
+      </columns>
+    </itemGraphics>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>FM_minivaultshelfASF</defName>
+    <targetDef>minivaultshelf</targetDef>
+    <graphics>
+      <li>
+        <graphicData>
+          <texPath>Things/Building/Storage/VaultShelf/vault_minishelf</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>(3,2)</drawSize>
+          <drawRotated>false</drawRotated>
+        </graphicData>
+        <graphicDatas>
+          <li>
+            <texPath>Things/Building/Storage/VaultShelf/vault_minishelfLayer</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,2)</drawSize>
+            <drawRotated>false</drawRotated>
+            <renderQueue>2950</renderQueue>
+            <altitudeLayer>ItemImportant</altitudeLayer>
+            <drawOffset>(0,1.2,0)</drawOffset>
+          </li>
+        </graphicDatas>
+      </li>
+    </graphics>
+    <showContainedItems>true</showContainedItems>
+    <itemGraphics>
+      <columns>
+        <c0>
+          <rows>
+            <r0>
+              <stackBehaviour>Stack</stackBehaviour>
+              <stackOffset>(0.05,0,0)</stackOffset>
+              <drawOffset>(0.05,0,-0.05)</drawOffset>
+              <drawScale>0.9</drawScale>
+              <rotation>0</rotation>
+            </r0>
+          </rows>
+        </c0>
+        <c1>
+          <rows>
+            <r0>
+              <stackBehaviour>Stack</stackBehaviour>
+              <stackOffset>(0.05,0,0)</stackOffset>
+              <drawOffset>(-0.95,0,-0.95)</drawOffset>
+              <drawScale>0.8</drawScale>
+              <rotation>0</rotation>
+            </r0>
+          </rows>
+        </c1>
+      </columns>
+    </itemGraphics>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>FM_VaultLockerASF</defName>
+    <targetDef>VaultWardrobeA</targetDef>
+    <showContainedItems>false</showContainedItems>
+  </AdaptiveStorage.GraphicsDef>
+
+  <AdaptiveStorage.GraphicsDef>
+    <defName>FM_VaultLockersASF</defName>
+    <targetDef>VaultWardrobeB</targetDef>
+    <showContainedItems>false</showContainedItems>
+  </AdaptiveStorage.GraphicsDef>
+
+</Defs>

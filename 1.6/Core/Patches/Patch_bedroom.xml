@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Simple furniture (Metallic only) -->
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/label</xpath>
+        <value>
+          <label>vault lockers (1x1)</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Furniture/Vault_DresserAE</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.55,3.45)</drawSize>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]</xpath>
+        <value>
+          <uiIconPath>Things/Building/Furniture/Vault_DresserAE_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/uiIconScale</xpath>
+        <value>
+          <uiIconScale>1</uiIconScale>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/uiIconOffset</xpath>
+        <value>
+          <uiIconOffset>(0,0)</uiIconOffset>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeA" ]/building</xpath>
+        <value>
+          <paintable>true</paintable>
+          <maxItemsInCell>4</maxItemsInCell>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/label</xpath>
+        <value>
+          <label>vault lockers (2x1)</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Furniture/Vault_DresserBE</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3.55,3.45)</drawSize>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]</xpath>
+        <value>
+          <uiIconPath>Things/Building/Furniture/Vault_DresserBE_MenuIcon</uiIconPath>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/uiIconScale</xpath>
+        <value>
+          <uiIconScale>1</uiIconScale>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/uiIconOffset</xpath>
+        <value>
+          <uiIconOffset>(0,0)</uiIconOffset>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="VaultWardrobeB" ]/building</xpath>
+        <value>
+          <paintable>true</paintable>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_EndTable" ]/label</xpath>
+        <value>
+          <label>vault end table</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_EndTable" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="vt_EndTable" ]</xpath>
+        <value>
+          <building>
+            <paintable>true</paintable>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_commode" ]/label</xpath>
+        <value>
+          <label>vault dresser</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_commode" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <drawSize>(2,2.3)</drawSize>
+            <texPath>Things/Building/Furniture/vt_commode</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_commode" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="vt_commode" ]</xpath>
+        <value>
+          <building>
+            <paintable>true</paintable>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Bed_Vault" ]/label</xpath>
+        <value>
+          <label>vault bed</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Bed_Vault" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="Bed_Vault" ]</xpath>
+        <value>
+          <building>
+            <paintable>true</paintable>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Bed_DoubleVault" ]/label</xpath>
+        <value>
+          <label>vault double bed</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Bed_DoubleVault" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Metallic</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="Bed_DoubleVault" ]</xpath>
+        <value>
+          <building>
+            <paintable>true</paintable>
+          </building>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <!-- Lux furniture (Woody only) -->
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_luxEndTable" ]/label</xpath>
+        <value>
+          <label>vault lux end table</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_luxEndTable" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Woody</li>
+          </stuffCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_luxcommode" ]/label</xpath>
+        <value>
+          <label>vault lux dresser</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_luxcommode" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Woody</li>
+          </stuffCategories>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_curio" ]/label</xpath>
+        <value>
+          <label>vault lux curio</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_curio" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Woody</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="vt_curio" ]</xpath>
+        <value>
+          <building>
+            <paintable>true</paintable>
+          </building>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_curio" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <texPath>Things/Building/Luxury/curio</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(3.55,3.45)</drawSize>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_curio" ]/size</xpath>
+        <value>
+          <size>(1,1)</size>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_curio" ]/uiIconScale</xpath>
+        <value>
+          <uiIconScale>0.7</uiIconScale>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="vt_curio" ]/uiIconOffset</xpath>
+        <value>
+          <uiIconOffset>(0,0.2)</uiIconOffset>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="vt_curio" ]</xpath>
+        <value>
+          <defaultPlacingRot>South</defaultPlacingRot>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Bed_luxDoubleVault" ]/label</xpath>
+        <value>
+          <label>vault lux bed</label>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Bed_luxDoubleVault" ]/graphicData</xpath>
+        <value>
+          <graphicData>
+            <drawSize>(4.1,4.1)</drawSize>
+            <texPath>Things/Building/Luxury/vaultluxDoubleBed</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+          </graphicData>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Bed_luxDoubleVault" ]/stuffCategories</xpath>
+        <value>
+          <stuffCategories Inherit="true">
+            <li>Woody</li>
+          </stuffCategories>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[ defName="Bed_luxDoubleVault" ]/building</xpath>
+        <value>
+          <paintable>true</paintable>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[ defName="Bed_luxDoubleVault" ]/statBases</xpath>
+        <value>
+          <statBases>
+            <MaxHitPoints>420</MaxHitPoints>
+            <Flammability>0.5</Flammability>
+            <WorkToBuild>30000</WorkToBuild>
+            <Mass>100</Mass>
+            <Beauty>100</Beauty>
+            <BedRestEffectiveness>1.2</BedRestEffectiveness>
+            <Comfort>1.05</Comfort>
+            <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+            <SurgerySuccessChanceFactor>1</SurgerySuccessChanceFactor>
+          </statBases>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
